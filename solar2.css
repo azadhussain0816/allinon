@@ -1,0 +1,146 @@
+body{
+    background: url(https://cdn.mos.cms.futurecdn.net/owm4oa3hXUG58mka7hPvfP-1200-80.jpg) no-repeat center/cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 100%;
+    margin: auto;
+    height: 900px;
+    position: relative;
+    animation: ro 10s linear infinite;
+}
+.sun{
+    width: 70px;
+    height: 70px;
+    background: url(../7171.webp) no-repeat center/cover;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    border-radius: 60%;
+    left: 50%;
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.fd{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    animation: ro 10s linear infinite;
+    
+    
+}
+.e{
+    background: url(../av.webp) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    animation: roo 5s linear infinite;
+    
+}
+.moo{
+    width:17px;
+    height: 17px;
+    
+    background: url(../moo.webp) no-repeat center/cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    animation: roo 5s linear infinite;
+}
+.p2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    position: relative;
+    border: solid;
+    left: 50%;
+    top: 27%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.ts{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    border-radius: 59%;
+    right: -5%;
+    background: url(https://icon2.cleanpng.com/20180611/vev/aa8nbqhlc.webp) no-repeat center/cover;
+    animation: roo 5s linear infinite;
+}
+.p3{
+    width: 450px;
+    height: 450px;
+    border: solid;
+    position: absolute;
+    position: relative;
+    border-radius: 50%;
+    left: 50%;
+    top: -7%;
+    transform: translate(-50%,-50%);
+}
+.oi{
+    background: url(https://icon2.cleanpng.com/20180528/ha/avpd3m6n9.webp) no-repeat center/cover;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -7%;
+    border-radius: 50%;
+    left: 50%;
+    animation: roo 1s linear infinite;
+}
+.p4{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    position: relative;
+    border: solid;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border-radius: 50%;
+    top: -58%;
+}
+.ll{
+    
+    width: 80px;
+    height: 80px;
+    background: url(https://as2.ftcdn.net/v2/jpg/09/28/93/65/1000_F_928936570_N2cx0RF8xkbvPltmykgPr1j1OmFI5XoO.webp) no-repeat center/cover;
+    top: 50%;
+    position: absolute;
+    left: -38px;
+    animation: roo 2s linear infinite;
+
+}
+@keyframes ro {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    
+}
+@keyframes roo {
+    100%{transform: rotate(360deg);}
+    
+}
